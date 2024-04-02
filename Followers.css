@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(31, 29, 29);
+        /* transform: scale(1.1);
+        transform-origin: 0 0;
+    overflow-x: hidden; */
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px
+}
+
+.followers_box{
+    height: 500px;
+    width: 420px;
+    padding-top:30px;
+    background-color: black;
+    color:lime;
+    border-radius: 6%;
+}
+
+.heading{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+.search{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.input{
+    display: flex;
+    width: 330px;
+    height: 23px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none; 
+    outline: none; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white; 
+    padding: 5px; 
+}
+
+.bx-search-alt-2{
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.gap{
+    margin: 15px;
+}
+
+.followers_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    height: 355px;
+    border-radius: 25px;
+}
+
+.profile{
+    display: flex;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.1);
+    padding-bottom: 4px; 
+}
+.dp{
+    /* width: 25%; */
+    width: 95px;
+}
+
+.dp img{
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 4px;
+    padding-top: 4px;
+    width: 70%;
+}
+
+.msgs{
+    
+    flex-direction: row;
+    width: 45%;
+}
+
+.msgs a {
+    margin-top: 10px; /* not working */
+    color: lime;
+    text-decoration: none;
+}
+
+.msgs p{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.remove_button{
+    width: 30%;
+}
+
+.remove_button button{
+    height: 32px;
+    width: 80px;
+    background-color:black ;
+    color: lime;
+    border-radius: 7px;
+    margin-top: 11px;
+    border: none;
+    outline: none;
+}
+
+.remove_button button:hover{
+    cursor: pointer;
+    background-color: rgb(186, 237, 110);
+    color: black;
+    font-weight:bold;
+}
+
+
+
+
+
+
