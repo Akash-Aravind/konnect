@@ -4,17 +4,85 @@
 }
 body{
     background-color: rgb(31, 29, 29);
-        /* transform: scale(1.1);
-        transform-origin: 0 0;
-    overflow-x: hidden; */
-    
+}
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+html{
+    max-width: 100vw;
+}
+.outer-container{
+    display: flex;
+}
+/* left container */
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.left-container{
+    font-weight: 10;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 25vw;
+    background-color: black;
+}
+
+.nav-elements{
+    display: flex;
+    flex-direction: column;
+
+}
+.element{
+    margin: auto;
+    color: white;
+    margin-bottom: 50px;
+    width: 51%; 
+
+    font-size: 26px;
+}
+
+.element img{
+    transform: translateY(10px);
+    margin-right: 15px;
+}
+
+.profile-button{
+    color: aliceblue;
+    margin: auto;
+    width: 50%;
+    text-align: start;
+    transform: translateY(0px);
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.profile-button img{
+    transform: translateY(30px);
+    margin-right: 10px;
+
+}
+
+
+/* right container */
+.right-container{
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+hr{
+    width: 1px;
+    height: 100vh;
+    color: gray;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px
+    margin-top: 100px;
 }
 
 .followers_box{
@@ -78,7 +146,9 @@ body{
     margin-left: 2px;
     margin-right: 2px;
     width: 100%;
-    background-color:rgba(255, 255, 255, 0.1);
+    /* background-color:rgba(255, 255, 255, 0.1); */
+    background-color:black;
+
     padding-bottom: 4px; 
 }
 .dp{
