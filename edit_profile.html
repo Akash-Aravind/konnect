@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Profile</title>
+    <link rel="stylesheet" href="./edit_profile.css">
+</head>
+<body>
+    <form action="">
+        <div class="mid_aligner ">
+                <div class="contain">
+                    <div><h1>Profile</h1></div>
+                    <div class="uploader" ">
+                        <input type="file" accept="image/jpg, image/jpeg, image/png"style="width:200px;height:200px;transform:translate(-30px,-30px);z-index:-10;opacity: 0%;">
+                        <div class="upload_image">
+                            <label for="input_file"></label>
+                        </div>
+                        
+                    </div>
+                    <div><input type="text" placeholder="First name" pattern="[a-zA-Z]" title="Name cannot contain special characters or numbers"></div>
+                    <div><input type="text" placeholder="Last name" pattern="[a-zA-Z]" title="Name cannot contain special characters or numbers"></div>
+                    <div><input type="text" placeholder="Email ID" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter valid email address"></div>
+                    <div><input type="text" placeholder="Current role" pattern="[a-zA-Z]" title="Role cannot contain special characters or numbers"></div>
+                    <div><textarea placeholder="Career highlights" style="text-align: center;" name="Career" id="idk" cols="20" rows="5"></textarea></div>
+                    
+                    
+                    
+                    <div><button class="create_btn" type="submit">Submit</button></div>
+                </div>
+        </div>    
+    </form>
+</body>
+</html>

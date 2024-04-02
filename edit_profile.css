@@ -1,0 +1,150 @@
+*{
+    transition: all 0.3s ease-in;
+}
+
+.center_aligner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+.mid_aligner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+h1{
+    color: lime;
+}
+
+input{
+    width: 250px; 
+    height: 27px;
+    border: none;
+    border-radius: 5px;  
+    padding-left: 12px;
+    background-color: rgb(69, 69, 69);
+    color: lime;
+    font-weight: 700; 
+}
+/* input:hover{
+    width: 255px;
+    height: 30px;
+} */
+
+textarea{
+    width: 250px;
+    padding-left: 12px;
+    background-color: rgb(69, 69, 69);
+    color: lime;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+/* textarea:hover{
+    width: 255px;
+    height: 80px;
+} */
+
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid lime;
+    border-radius: 10%;
+    padding: 10px;
+    width: 370px;
+    height: 518px;
+    background-color: #101010;
+}
+
+.contain:hover{
+    background-color: black;
+    transition: 400ms;
+}
+
+.create_btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 0px;
+}
+/* 
+label{
+    width: 250px; 
+    height: px;
+    border: none;
+    border-radius: 5px;  
+    padding-left: 12px;
+    background-color: rgb(69, 69, 69);
+    color: lime;
+    font-weight: 700; 
+} */
+
+button{
+    height: 33px;
+    width: 125px;
+    padding-bottom: 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(43, 127, 43);
+}
+
+button:active{
+    background-color: rgb(106, 167, 106);
+    transition: 300ms;
+}
+
+.upload_image{
+    color: white;
+    text-align:center;
+}
+
+.uploader{
+    /* when user selects it turns to that */
+    background-image: url("./profileview/PngItem_3947057.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    border: 1px solid lime;
+    border-radius: 100%;
+    width: 75px;
+
+    padding: 5px;
+    height: 75px;
+    text-align: center;
+
+    margin-top: 0px;
+}
+
+.uploader:hover {
+    background-image: url("./profileview/pencil-48.png");
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease-in; 
+}
+.uploader:active{
+    background-color: #878787;
+    transition: 300ms;
+    /* height: 62px;
+    width: 100px; */
+    
+}
