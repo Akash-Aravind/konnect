@@ -13,7 +13,7 @@
 *{
     transition: all 0.3s ease-in;
 }
-a{
+#log-in{
     color: white;
     text-decoration: none;
     border: 1px solid green;
