@@ -68,6 +68,7 @@ a{
 .right-container{
     padding:40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
 }
 hr{
     position: fixed;
@@ -78,66 +79,50 @@ hr{
     left: 25vw;
 }
 
-.first-part{
-    display: flex;
-    flex-direction: row;
-    color: white;
+
+.persons{
+    width: 70%;
+    margin-bottom: 50px;
+}
+.persons img{
+    width: 50px;
+    margin-left:10px ;
+}
+
+.card{
+    border: 1px solid gray;
+    width: 25vw;
+    height: 80vh;
+    border-radius:15px ;
+    margin-left: 80px;
 }
 
 .one{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin-bottom: 25px;
-    align-items: center;
-    font-size: 21px;
-}
-.btn{
-    border-radius: 25px;
-    font-weight: 21px;
-    font-weight: bolder;
-    width: 120px;
-    height: 40px;
-    background-color: #00FF0A;
-    color: black;
-    padding: 6px;
-}
-
-ul li{
-    margin-bottom: 10px;
-}
-.one-one{
-    justify-content: space-between;
-    width:230px;
-    font-size: 24px;
-}
-.one-three{
-    justify-content: space-between;
-    width:500px;
-}
-
-
-.second-part{
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: 10%;
     color: white;
-}
-
-.points{
-    font-size: 21px;
-    transform: translate(50px,10px);
-    margin-bottom: 25px;
-}
-
-.third-part{
-    padding-left: 10px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color:white;
+    align-items: center;
+    padding: 10px;
+}
+.two img{
+    width: 25vw;
+    height: 25vw;
 }
 
-.third-part img{
-    margin-bottom: 20px;
+.one img{
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.three{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+.three img{
+    width: 35px;
+    margin-bottom: 5px;
 }
